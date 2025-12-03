@@ -31,7 +31,7 @@ function startSpinning() {
     reelCols.forEach((col, index) => {
         let position = 0;
         // Скорость вращения (15 - плавно)
-        const speed = 3 + (index * 2); 
+        const speed = 1 + (index * 2); 
         
         const interval = setInterval(() => {
             position -= speed;
@@ -126,3 +126,4 @@ document.querySelector('.claim-btn').addEventListener('click', () => {
     alert("Переход на регистрацию...");
 
 });
+
