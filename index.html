@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starlite Fruits</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-wrapper">
+        
+        <header class="top-header">
+            <h1>UNLOCK AN EXCLUSIVE OFFER</h1>
+            <p>HIT THE <span class="highlight">"STOP"</span> BUTTON TO SEE IF YOU WIN!</p>
+        </header>
+
+        <img src="images/logo-slot.png" alt="Logo" class="logo">
+
+        <div class="slot-machine-container">
+            
+            <div class="reels-mask" id="reelsContainer">
+                <div class="reel-col" id="col-1"></div>
+                <div class="reel-col" id="col-2"></div>
+                <div class="reel-col" id="col-3"></div>
+                <div class="reel-col" id="col-4"></div>
+                <div class="reel-col" id="col-5"></div>
+                <div class="reel-col" id="col-6"></div>
+            </div>
+            
+            <button id="stopBtn" class="stop-btn">STOP</button>
+        </div>
+
+        <footer class="footer-info">
+            <h3>LUCKY DREAMS</h3>
+            <p>LuckyDreams.com is operated by Dama N.V., a company incorporated under the laws of Curacao...</p>
+            <p>Terms and conditions | Privacy policy</p>
+        </footer>
+    </div>
+
+    <div id="modal" class="modal-overlay">
+        <div class="modal-box">
+            <img src="images/zeus.png" class="modal-img" alt="Win Logo">
+            <h2>CONGRATULATIONS!</h2>
+            <p class="sub-text">YOU HAVE WON</p>
+            <div class="prize-amount">€10,000</div>
+            <div class="prize-spins">+ 500 FREE SPINS</div>
+            <button class="claim-btn">CLAIM NOW</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
